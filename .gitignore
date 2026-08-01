@@ -1,0 +1,31 @@
+# Virtual environment
+.venv/
+
+# Secrets
+.env
+
+# Local captures (personal data)
+raw/
+
+# Derived / generated data
+data/
+
+# Personal wiki notes (keep directory structure via .gitkeep)
+wiki/**/*.md
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+.cursor/
+
+# Local test files
+test.txt
+*.log
